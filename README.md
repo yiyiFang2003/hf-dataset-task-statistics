@@ -10,7 +10,6 @@ This repository contains the full dataset-task association statistics from the p
 
 ## File Description
 - `dataset-task-statistics-full.xlsx`: Complete full-volume statistics (Excel)
-- `dataset-task-statistics-sample.xlsx`: Sample subset (Excel)
 
 ## Fields
 1. Dataset Name
