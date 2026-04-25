@@ -1,33 +1,29 @@
-# Hugging Face Dataset-Task Association Statistics
+# Hugging Face Dataset-Task Statistics
 
-This repository contains the full dataset-task association statistics from the paper Research on Recommendation of Open-Source Datasets Combining Usage Characteristics and Task Adaptability of Large Models.
-
-## Data Source
-- Collection Date: March 24, 2026
-- Platform: Hugging Face
-- Scale: 207,897 model-task-dataset association records
-- 38,344 valid open-source datasets
-
-## File Description
-- `dataset-task-statistics-full.xlsx`: Complete full-volume statistics (Excel)
+## File
+- Name: dataset-task-statistics-full.xlsx
+- Source: Hugging Face Hub (crawled 2026-03-24)
 
 ## Fields
 1. Dataset Name
-2. Number of Associated Task Types
-3. Total Association Count
-4. All Associated Task Types (Frequency)
-5. Top Frequent Task Type
-6. Count of Top Frequent Task
-7. Proportion of Top Frequent Task
-8. Dataset Type
+2. Task Type Count
+3. Total Associations
+4. Top Task Type
+5. Top Task Count
+6. Top Task Proportion
+7. All Task Types (Frequency)
+8. Category List
+9. Category Count
+10. Dataset Type
+11. Fine_tuned_Models
+12. Likely_Pretrained_Models
+13. Pretrained_Models
+14. Fine_tuned_Proportion
+15. Has_Official_Task_Label
 
 ## Usage
-Directly download and use for:
-- LLM training & fine-tuning dataset recommendation
-- Open-source dataset ecosystem analysis
-- Task adaptability research
-- Dataset screening and benchmark construction
+For dataset selection, task adaptability analysis, and LLM fine-tuning research.
 
 ## Citation
 If you use this data, please cite:
-Fang, L., & Zhang, Y. Y. (2026). Research on Recommendation of Open-Source Datasets Combining Usage Characteristics and Task Adaptability of Large Models.
+Fang, L., & Zhang, Y. Y. (2026). Characteristic Analysis and Task Adaptability Research of Open-Source Community Datasets Based on Model Usage Preferences.
